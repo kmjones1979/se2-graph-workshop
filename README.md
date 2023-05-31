@@ -28,7 +28,7 @@ Before you begin, you need to install the following tools:
 
 ## 1. Setup Scaffold-ETH 2
 
-To get started with Scaffold-ETH 2, follow the steps below:
+> To get started with Scaffold-ETH 2, follow the steps below:
 
 1. Clone this repo & install dependencies
 
@@ -44,7 +44,7 @@ yarn install
 yarn chain
 ```
 
-This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `hardhat.config.ts`.
+> This command starts a local Ethereum network using Hardhat. The network runs on your local machine and can be used for testing and development. You can customize the network configuration in `hardhat.config.ts`.
 
 3. On a second terminal, deploy the test contract:
 
@@ -52,7 +52,7 @@ This command starts a local Ethereum network using Hardhat. The network runs on 
 yarn deploy
 ```
 
-This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
+> This command deploys a test smart contract to the local network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
 
 4. On a third terminal, start your NextJS app:
 
@@ -60,9 +60,9 @@ This command deploys a test smart contract to the local network. The contract is
 yarn start
 ```
 
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the contract component or the example ui in the frontend. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
+> Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the contract component or the example ui in the frontend. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
 
-Run smart contract test with `yarn hardhat:test`
+> Run smart contract test with `yarn hardhat:test`
 
 - Edit your smart contract `YourContract.sol` in `packages/hardhat/contracts`
 - Edit your frontend in `packages/nextjs/pages`
@@ -70,9 +70,13 @@ Run smart contract test with `yarn hardhat:test`
 
 ## 2. Demo of Scaffold-ETH 2
 
-Steps will be added later here...
+> Steps will be added later here...
 
-### 10 Minute BREAK
+###
+
+# 10 Minute BREAK
+
+###
 
 ## 3. Solidity by Example
 
@@ -114,13 +118,17 @@ Steps will be added later here...
 
 - [Challenge 0](https://speedrunethereum.com/challenge/simple-nft-example)
 
-### 10 Minute BREAK
+##
+
+# 10 Minute BREAK
+
+##
 
 ## 7. Setup Scaffold-ETH 2 build with The Graph Integration
 
 - [👨‍🚀 Build a dApp quick with The Graph and Scaffold-ETH 2 🏗️](https://mirror.xyz/cryptomastery.eth/uGHEHnskoVwX-mWjAiidXfGt6QowCoKl_yX4okwZc0E)
 
-First, we will start out with a special build of Scaffold-ETH 2 written by Simon from Edge and Node… Thanks Simon! 🫡
+> First, we will start out with a special build of Scaffold-ETH 2 written by Simon from Edge and Node… Thanks Simon! 🫡
 
 ```
 git clone -b subgraph-package \
@@ -128,76 +136,76 @@ git clone -b subgraph-package \
   scaffold-eth-2-subgraph-package
 ```
 
-Once you have this checked out on your machine, navigate into the directory and install all of the dependencies using yarn.
+> Once you have this checked out on your machine, navigate into the directory and install all of the dependencies using yarn.
 
 ```
 cd scaffold-eth-2-subgraph-package && \
   yarn install
 ```
 
-Next, we will want to start up our local blockchain so that we can eventually deploy and test our smart contracts. Scaffold-ETH 2 comes with Hardhat by default. To spin up the chain just type the following yarn command…
+> Next, we will want to start up our local blockchain so that we can eventually deploy and test our smart contracts. Scaffold-ETH 2 comes with Hardhat by default. To spin up the chain just type the following yarn command…
 
 ```
 yarn chain
 ```
 
-You will keep this window up and available so that you can see any output from hardhat console. 🖥️
+> You will keep this window up and available so that you can see any output from hardhat console. 🖥️
 
-Next we are going to spin up our frontend application. Scaffold-ETH 2 comes with NextJS by default and also can be started with a simple yarn command. You will need to open up a new command line and type the following…
+> Next we are going to spin up our frontend application. Scaffold-ETH 2 comes with NextJS by default and also can be started with a simple yarn command. You will need to open up a new command line and type the following…
 
 ```
 yarn start
 ```
 
-You will also want to keep this window up at all times so that you can debug any code changes you make to NextJS, debug performance or just check that the server is running properly.
+> You will also want to keep this window up at all times so that you can debug any code changes you make to NextJS, debug performance or just check that the server is running properly.
 
-Next, you will want to open up a third window where you can deploy your smart contract, along with some other useful commands found in Scaffold-ETH. To do a deploy you can simply run the following…
+> Next, you will want to open up a third window where you can deploy your smart contract, along with some other useful commands found in Scaffold-ETH. To do a deploy you can simply run the following…
 
 ```
 yarn deploy
 ```
 
-You should get a tx along with an address and amount of gas spent on the deploy. ⛽
+> You should get a tx along with an address and amount of gas spent on the deploy. ⛽
 
-If you navigate to http://localhost:3000 you should see the NextJS application. Explore the menus and features of Scaffold-ETH 2! Someone call in an emergency, cause hot damn that is fire! 🔥
+> If you navigate to http://localhost:3000 you should see the NextJS application. Explore the menus and features of Scaffold-ETH 2! Someone call in an emergency, cause hot damn that is fire! 🔥
 
 ## 8. Demo of The Graph Integration
 
-Now that we have spun up our blockchain, started our frontend application and deployed our smart contract, we can start setting up our subgraph and utilize The Graph!
+> Now that we have spun up our blockchain, started our frontend application and deployed our smart contract, we can start setting up our subgraph and utilize The Graph!
 
-First, navigate into the subgraph directory. ⌨️
+1. First, navigate into the subgraph directory. ⌨️
 
 ```
 cd packages/subgraph
 ```
 
-Next, you will want to run the following to clean up any old data. Do this if you need to reset everything.
+2. Next, you will want to run the following to clean up any old data. Do this if you need to reset everything.
 
 ```
 yarn clean-node
 ```
 
-We can now spin up a graph node by running the following command… 🧑‍🚀
+3. We can now spin up a graph node by running the following command… 🧑‍🚀
 
 ```
 yarn run-node
 ```
 
-This will spin up all the containers for The Graph using docker-compose. You will want to keep this window open at all times so that you can see log output from Docker.
+> This will spin up all the containers for The Graph using docker-compose. You will want to keep this window open at all times so that you can see log output from Docker.
 
-Note: If you are running Docker Desktop on Mac you might encounter the following errors… If so please checkout this fix below.
+> Note: If you are running Docker Desktop on Mac you might encounter the following errors… If so please checkout this fix below.
 
 ```
 CRIT Database does not use C locale. Please check the graph-node documentation for how to set up the database locale, error: database collation is `en_US.utf8` but must be `C`, pool: main, shard: primary, component: ConnectionPool thread 'tokio-runtime-worker' panicked at 'Database does not use C locale. Please check the graph-node documentation for how to set up the database locale: database collation is `en_US.utf8` but must be `C`', store/postgres/src/connection_pool.rs:976:13 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: JoinError::Panic(...)', /graph-node/store/postgres/src/connection_pool.rs:484:10
 ```
 
-To fix this, stop the existing node and clean up the data. 🧹
+> To fix this, stop the existing node and clean up the data. 🧹
 
 ```
 yarn stop-node && yarn clean-node 
 ```
 
-Then add the following to the environment section of your docker-compose.yml file.
+> Then add the following to the environment section of your docker-compose.yml file.
 
 ```
       # workaround for https://github.com/docker/for-mac/issues/6270?
@@ -205,43 +213,39 @@ Then add the following to the environment section of your docker-compose.yml fil
       POSTGRES_INITDB_ARGS: "-E UTF8 --locale=C"
 ```
 
-Then go ahead and start it up again.
+> Then go ahead and start it up again.
 
 ```
 yarn run-node
 ```
 
-As stated before, be sure to keep this window open so that you can see any log output from Docker. 🔎
+> As stated before, be sure to keep this window open so that you can see any log output from Docker. 🔎
 
-Now we can open up a fourth window to finish setting up The Graph. 😅
+> Now we can open up a fourth window to finish setting up The Graph. 😅
 
-In this forth window we will create our local subgraph! You will only need to do this once.
+4. In this forth window we will create our local subgraph! You will only need to do this once.
 
 ```
 yarn local-create
 ```
 
-You should see some output stating your Subgraph has been created along with a log output on your graph-node inside docker.
+> You should see some output stating your Subgraph has been created along with a log output on your graph-node inside docker.
 
-Next we will ship our subgraph! You will need to give your subgraph a version after executing this command. (e.g. 0.0.1).
+5. Next we will ship our subgraph! You will need to give your subgraph a version after executing this command. (e.g. 0.0.1).
 
 ```
 yarn local-ship
 ```
 
-This command does the following all in one… 🚀🚀🚀
+> This command does the following all in one… 🚀🚀🚀
 
-Copies the contracts ABI from the hardhat/deployments folder
+- Copies the contracts ABI from the hardhat/deployments folder
+- Generates the networks.json file
+- Generates AssemblyScript types from the subgraph schema and the contract ABIs.
+- Compiles and checks the mapping functions.
+- … and deploy a local subgraph!
 
-Generates the networks.json file
-
-Generates AssemblyScript types from the subgraph schema and the contract ABIs.
-
-Compiles and checks the mapping functions.
-
-… and deploy a local subgraph!
-
-You should get a build completed output along with the address of your Subgraph endpoint.
+> You should get a build completed output along with the address of your Subgraph endpoint.
 
 ```
 Build completed: QmYdGWsVSUYTd1dJnqn84kJkDggc2GD9RZWK5xLVEMB9iP
@@ -252,9 +256,9 @@ Subgraph endpoints:
 Queries (HTTP):     http://localhost:8000/subgraphs/name/scaffold-eth/your-contract
 ```
 
-Go ahead and head over to your subgraph endpoint and take a look!
+> Go ahead and head over to your subgraph endpoint and take a look!
 
-Here is an example query…
+> Here is an example query…
 
 ```
   {
@@ -272,9 +276,9 @@ Here is an example query…
   }
 ```
 
-If all is well and you’ve sent a transaction to your smart contract then you will see a similar data output!
+> If all is well and you’ve sent a transaction to your smart contract then you will see a similar data output!
 
-Next up we will dive into a bit more detail on how The Graph works so that as you start adding events to your smart contract you can start indexing and parsing the data you need for your front end application.
+> Next up we will dive into a bit more detail on how The Graph works so that as you start adding events to your smart contract you can start indexing and parsing the data you need for your front end application.
 
 ## 9. Extra Credit - Adding Additional Events
 
