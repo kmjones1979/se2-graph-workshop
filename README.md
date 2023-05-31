@@ -278,7 +278,7 @@ Scroll down to "Adding Additional Events"
 
 - [👨‍🚀 Build a dApp quick with The Graph and Scaffold-ETH 2 🏗️](https://mirror.xyz/cryptomastery.eth/uGHEHnskoVwX-mWjAiidXfGt6QowCoKl_yX4okwZc0E)
 
-Scroll down to "Adding Additional Events"
+Scroll down to "Querying from an Application"
 
 ### Resources / More help!
 
