@@ -7,8 +7,8 @@ Agenda!
 3. Solidity by Example
 4. Install Metamask
 5. SpeedRunEthereum
-6. Challenge 0 - Simple NFT Example
-7. Setup Scaffold-ETH 2 branch with The Graph integration
+6. 🚩 Challenge 0: 🎟 Simple NFT Example
+7. Setup Scaffold-ETH 2 branch with The Graph Integration
 8. Demo of The Graph integration
 9. Extra Credit - Adding Additional Events
 10. Extra Extra Credit - Querying from an Application
@@ -21,6 +21,10 @@ Before you begin, you need to install the following tools:
 - Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://docs.docker.com/get-docker/)
+
+## Resources
+
+- [Scaffold-ETH Stuff](https://hihello.me/p/b914b816-fb27-4909-9525-16c74c7e7eef)
 
 ## 1. Setup Scaffold-ETH 2
 
@@ -72,7 +76,7 @@ Steps will be added later here...
 
 ## 3. Solidity by Example
 
-- [Solidity](https://solidity-by-example.org/)
+- [Solidity by Example](https://solidity-by-example.org/)
 
 1. Incorporate the following variables and functions into your smart contract.
 
@@ -106,13 +110,13 @@ Steps will be added later here...
 
 - [SpeedRunEthereum](https://speedrunethereum.com/)
 
-## 6. Challenge 0 - Simple NFT Example
+## 6. 🚩 Challenge 0: 🎟 Simple NFT Example
 
 - [Challenge 0](https://speedrunethereum.com/challenge/simple-nft-example)
 
 ### 10 Minute BREAK
 
-## 7. Setup Scaffold-ETH 2 build with The Graph integration
+## 7. Setup Scaffold-ETH 2 build with The Graph Integration
 
 - [👨‍🚀 Build a dApp quick with The Graph and Scaffold-ETH 2 🏗️](https://mirror.xyz/cryptomastery.eth/uGHEHnskoVwX-mWjAiidXfGt6QowCoKl_yX4okwZc0E)
 
@@ -157,7 +161,7 @@ You should get a tx along with an address and amount of gas spent on the deploy.
 
 If you navigate to http://localhost:3000 you should see the NextJS application. Explore the menus and features of Scaffold-ETH 2! Someone call in an emergency, cause hot damn that is fire! 🔥
 
-## 8. Demo of The Graph integration
+## 8. Demo of The Graph Integration
 
 Now that we have spun up our blockchain, started our frontend application and deployed our smart contract, we can start setting up our subgraph and utilize The Graph!
 
