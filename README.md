@@ -1,6 +1,6 @@
 # Scaffold-ETH 2 x The Graph Workshop
 
-Agenda!
+### Todays Agenda!
 
 1. Setup Scaffold-ETH 2
 2. Demo of Scaffold-ETH 2
@@ -69,7 +69,7 @@ yarn start
 > Steps will be added later here...
 
 ###
-### 10 Minute BREAK
+### <<<<>>>> 10 Minute BREAK <<<<>>>>
 ###
 
 ## 3. Solidity by Example
@@ -113,7 +113,7 @@ yarn start
 - [Challenge 0](https://speedrunethereum.com/challenge/simple-nft-example)
 
 ###
-### 10 Minute BREAK
+###  <<<<>>>> 10 Minute BREAK <<<<>>>>
 ###
 
 ## 7. Setup Scaffold-ETH 2 build with The Graph Integration
