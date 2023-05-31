@@ -225,6 +225,12 @@ yarn local-create
 yarn local-ship
 ```
 
+> If you get an error ts-node is missing run
+
+```
+npm install -g ts-node
+```
+
 > This command does the following all in one… 🚀🚀🚀
 
 - Copies the contracts ABI from the hardhat/deployments folder
