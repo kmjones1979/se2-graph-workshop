@@ -13,7 +13,7 @@ Agenda!
 9. Extra Credit - Adding Additional Events
 10. Extra Extra Credit - Querying from an Application
 
-## Requirements
+### Requirements
 
 Before you begin, you need to install the following tools:
 
@@ -69,9 +69,7 @@ yarn start
 > Steps will be added later here...
 
 ###
-
-# 10 Minute BREAK
-
+### 10 Minute BREAK
 ###
 
 ## 3. Solidity by Example
@@ -114,11 +112,9 @@ yarn start
 
 - [Challenge 0](https://speedrunethereum.com/challenge/simple-nft-example)
 
-##
-
-# 10 Minute BREAK
-
-##
+###
+### 10 Minute BREAK
+###
 
 ## 7. Setup Scaffold-ETH 2 build with The Graph Integration
 
@@ -288,7 +284,7 @@ Scroll down to "Adding Additional Events"
 
 Scroll down to "Adding Additional Events"
 
-## Resources / More help!
+### Resources / More help!
 
 - [Kevin's Social Media Contacts](https://hihello.me/p/6a93d967-1d9f-4818-ae0c-2dc9f86e01aa)
 - [Scaffold-ETH Stuff](https://hihello.me/p/b914b816-fb27-4909-9525-16c74c7e7eef)
