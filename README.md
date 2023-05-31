@@ -68,9 +68,13 @@ yarn start
 
 > Steps will be added later here...
 
-###
-### <<<<>>>> 10 Minute BREAK <<<<>>>>
-###
+<pre>
+
+
+<<<<>>>> 10 Minute BREAK <<<<>>>>
+
+
+</pre>
 
 ## 3. Solidity by Example
 
@@ -112,9 +116,13 @@ yarn start
 
 - [Challenge 0](https://speedrunethereum.com/challenge/simple-nft-example)
 
-###
-###  <<<<>>>> 10 Minute BREAK <<<<>>>>
-###
+<pre>
+
+
+<<<<>>>> 10 Minute BREAK <<<<>>>>
+
+
+</pre>
 
 ## 7. Setup Scaffold-ETH 2 build with The Graph Integration
 
