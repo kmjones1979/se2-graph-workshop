@@ -22,10 +22,6 @@ Before you begin, you need to install the following tools:
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://docs.docker.com/get-docker/)
 
-## Resources
-
-- [Scaffold-ETH Stuff](https://hihello.me/p/b914b816-fb27-4909-9525-16c74c7e7eef)
-
 ## 1. Setup Scaffold-ETH 2
 
 > To get started with Scaffold-ETH 2, follow the steps below:
@@ -291,3 +287,12 @@ Scroll down to "Adding Additional Events"
 - [👨‍🚀 Build a dApp quick with The Graph and Scaffold-ETH 2 🏗️](https://mirror.xyz/cryptomastery.eth/uGHEHnskoVwX-mWjAiidXfGt6QowCoKl_yX4okwZc0E)
 
 Scroll down to "Adding Additional Events"
+
+## Resources / More help!
+
+- [Kevin's Social Media Contacts](https://hihello.me/p/6a93d967-1d9f-4818-ae0c-2dc9f86e01aa)
+- [Scaffold-ETH Stuff](https://hihello.me/p/b914b816-fb27-4909-9525-16c74c7e7eef)
+- [0 to Buidl Guidl](https://lulox.notion.site/0-to-BuidlGuidl-4e1e835ba37c414199fe7a63cb5807e3)
+- [Austin's Web2 to Web3 Curriculum](https://github.com/austintgriffith/web2-to-web3-curriculum)
+- [Naders Web3 Resources for Developers](https://naderdabit.notion.site/Nader-s-web3-Resources-for-Developers-a200ed2ef21c4d578dc158df2b882c63)
+- [Eda's Developer Resources](https://github.com/edakturk14/ethereum-developer-resources)
