@@ -12,6 +12,7 @@
 8. Demo of The Graph integration
 9. Extra Credit - Adding Additional Events
 10. Extra Extra Credit - Querying from an Application
+11. Extra Credit - Build out a UI with Scaffold-ETH 2
 
 ### Requirements
 
@@ -285,6 +286,13 @@ Scroll down to "Adding Additional Events"
 - [👨‍🚀 Build a dApp quick with The Graph and Scaffold-ETH 2 🏗️](https://mirror.xyz/cryptomastery.eth/uGHEHnskoVwX-mWjAiidXfGt6QowCoKl_yX4okwZc0E)
 
 Scroll down to "Querying from an Application"
+
+## 11. Extra Credit - Build out a UI with Scaffold-ETH 2
+
+Open up main index.tsx file located in packages/nextjs
+
+- [Example UI](https://gist.github.com/kmjones1979/df424e89959e500a1bb8b14054d74b52)
+- [Wagmi Hooks](https://wagmi.sh/react/hooks/useAccount)
 
 ### Resources / More help!
 
